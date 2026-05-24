@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>DentalCare</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+
+  <header>
+
+    <div class="container">
+
+      <h1>DentalCare</h1>
+
+      <nav>
+        <a href="#hero">Главная</a>
+        <a href="#services">Услуги</a>
+        <a href="#doctors">Врачи</a>
+        <a href="#licenses">Лицензии</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+
+    </div>
+
+  </header>
+
+  <!-- HERO -->
+
+  <section class="hero" id="hero">
+
+    <div class="hero-text">
+
+      <h2>
+        Красивая улыбка —
+        <span>наша забота</span>
+      </h2>
+
+      <p>
+        Лечение зубов для взрослых и детей
+      </p>
+
+      <a href="#form-section" class="hero-btn">
+        Записаться
+      </a>
+
+    </div>
+
+  </section>
+
+  <!-- SERVICES -->
+
+  <section class="services" id="services">
+
+    <h2>Наши услуги</h2>
+
+    <div class="services-box">
+
+      <div class="service-card">
+        <h3>🦷 Лечение кариеса</h3>
+        <p>Современное лечение зубов без боли.</p>
+      </div>
+
+      <div class="service-card">
+        <h3>✨ Чистка зубов</h3>
+        <p>Профессиональная гигиена полости рта.</p>
+      </div>
+
+      <div class="service-card">
+        <h3>😁 Отбеливание</h3>
+        <p>Безопасное отбеливание зубов.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- DOCTORS -->
+
+  <section class="doctors" id="doctors">
+
+    <h2>Наши врачи</h2>
+
+    <div class="doctors-box">
+
+      <div class="doctor-card" onclick="showLicense()">
+        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="doctor">
+        <h3>Иван Иванов</h3>
+        <p>Стоматолог-терапевт</p>
+      </div>
+
+      <div class="doctor-card" onclick="showLicense()">
+        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="doctor">
+        <h3>Анна Смирнова</h3>
+        <p>Ортодонт</p>
+      </div>
+
+      <div class="doctor-card" onclick="showLicense()">
+        <img src="https://randomuser.me/api/portraits/men/65.jpg" alt="doctor">
+        <h3>Дмитрий Петров</h3>
+        <p>Хирург-стоматолог</p>
+      </div>
+
+      <div class="doctor-card" onclick="showLicense()">
+        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="doctor">
+        <h3>Елена Кузнецова</h3>
+        <p>Детский стоматолог</p>
+      </div>
+
+      <div class="doctor-card" onclick="showLicense()">
+        <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="doctor">
+        <h3>Алексей Орлов</h3>
+        <p>Имплантолог</p>
+      </div>
+
+      <div class="doctor-card" onclick="showLicense()">
+        <img src="https://randomuser.me/api/portraits/women/12.jpg" alt="doctor">
+        <h3>Мария Волкова</h3>
+        <p>Стоматолог-гигиенист</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- LICENSES -->
+
+  <section class="licenses" id="licenses">
+
+  <h2>Лицензии и сертификаты</h2>
+
+  <div class="licenses-box">
+
+    <div class="license-card">
+
+      <div class="license-top">
+        🏥
+      </div>
+
+      <h3>Медицинская лицензия</h3>
+
+      <div class="license-number">
+        ЛО-77-01-123456
+      </div>
+
+      <p>
+        Выдана Министерством здравоохранения РФ
+      </p>
+
+      <div class="license-bottom">
+        Действительна до 2030 года
+      </div>
+
+    </div>
+
+    <div class="license-card">
+
+      <div class="license-top">
+        ⭐
+      </div>
+
+      <h3>Сертификат качества</h3>
+
+      <div class="license-number">
+        ISO 9001
+      </div>
+
+      <p>
+        Международный стандарт качества медицинских услуг
+      </p>
+
+      <div class="license-bottom">
+        Подтверждено комиссией
+      </div>
+
+    </div>
+
+    <div class="license-card">
+
+      <div class="license-top">
+        ✔
+      </div>
+
+      <h3>Разрешение на деятельность</h3>
+
+      <div class="license-number">
+        № 458923
+      </div>
+
+      <p>
+        Официальное разрешение на стоматологическую практику
+      </p>
+
+      <div class="license-bottom">
+        Государственная регистрация
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+  <!-- PRICE -->
+
+  <section class="price">
+
+    <h2>Прайс-лист</h2>
+
+    <table>
+
+      <tr>
+        <th>Услуга</th>
+        <th>Цена</th>
+      </tr>
+
+      <tr>
+        <td>Консультация</td>
+        <td>2000 ₽</td>
+      </tr>
+
+      <tr>
+        <td>Чистка зубов</td>
+        <td>5000 ₽</td>
+      </tr>
+
+      <tr>
+        <td>Лечение кариеса</td>
+        <td>8000 ₽</td>
+      </tr>
+
+    </table>
+
+  </section>
+
+  <!-- FORM -->
+
+  <section class="appointment" id="form-section">
+
+    <h2>Запись на приём</h2>
+
+    <form id="form">
+
+      <input type="text" id="name" placeholder="Ваше имя" required>
+
+      <input type="text" id="phone" placeholder="Телефон" required>
+
+      <select id="service">
+
+        <option>Лечение</option>
+        <option>Чистка</option>
+        <option>Отбеливание</option>
+
+      </select>
+
+      <button type="submit">Отправить</button>
+
+    </form>
+
+    <div id="appointments-list"></div>
+
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer id="contacts">
+
+    <h2>Контакты</h2>
+
+    <p>📍 Москва, ул. Ленина 15</p>
+
+    <p>📞 +7 (999) 123-45-67</p>
+
+    <p>✉ info@dentalcare.ru</p>
+
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
